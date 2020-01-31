@@ -80,3 +80,8 @@ object Hello {
   }
 }
 ```
+
+- Generer le code JS avec ```sbt> fastOptJS```
+
+- Lancer "hello.html" dans le navigateur et observer "Hello, world" s'afficher ! 
+
