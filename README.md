@@ -10,4 +10,4 @@ Scala 2.12
 
 - Créer un nouveau projet Scala 
 - Créer projet/plugins.sbt et y ajouter la ligne 
-''' addSbtPlugin("org.scala-js" % "sbt-scalajs" % "0.6.28") '''
+``` addSbtPlugin("org.scala-js" % "sbt-scalajs" % "0.6.28") ```
