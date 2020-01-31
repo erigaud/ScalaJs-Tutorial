@@ -1,0 +1,16 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Eti\IdeaProjects\ScalaJsApp\src\main\scala\tutorial\hello.scala:2:12: object scalajs is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.scalajs.dom[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Eti\IdeaProjects\ScalaJsApp\src\main\scala\tutorial\hello.scala:3:8: not found: object dom[0m
+[0m[[0m[31merror[0m] [0m[0mimport dom.document[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Eti\IdeaProjects\ScalaJsApp\src\main\scala\tutorial\hello.scala:7:21: not found: value document[0m
+[0m[[0m[31merror[0m] [0m[0m      val parNode = document.createElement("p")[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Eti\IdeaProjects\ScalaJsApp\src\main\scala\tutorial\hello.scala:8:22: not found: value document[0m
+[0m[[0m[31merror[0m] [0m[0m      val textNode = document.createTextNode("Hello, world")[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Eti\IdeaProjects\ScalaJsApp\src\main\scala\tutorial\hello.scala:10:7: not found: value document[0m
+[0m[[0m[31merror[0m] [0m[0m      document.body.appendChild(parNode)[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m5 errors found[0m

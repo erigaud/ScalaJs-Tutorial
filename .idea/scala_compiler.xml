@@ -2,5 +2,10 @@
 <project version="4">
   <component name="ScalaCompilerConfiguration">
     <profile name="sbt 1" modules="scalajsapp" />
+    <profile name="sbt 2" modules="ScalaJsApp">
+      <plugins>
+        <plugin path="C:\Users\Eti\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-js\scalajs-compiler_2.12.4\0.6.28\scalajs-compiler_2.12.4-0.6.28.jar" />
+      </plugins>
+    </profile>
   </component>
 </project>
