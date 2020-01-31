@@ -15,7 +15,7 @@ Scala 2.12
 
 - Ajouter code suivant dans build.sbt 
 
-```
+``` 
 name := "ScalaJsApp"
 
 version := "0.1"
@@ -28,7 +28,7 @@ scalaJSUseMainModuleInitializer := true   // application ayant une méthode main
 - Créer un premier Objet Scala, dans un package "tutorial" : src/main/scala/tutorial/Hello.scala
 
 
-```
+``` scala
 package tutorial
 
 object Hello1 {
