@@ -15,7 +15,7 @@ Scala 2.12
 
 - Ajouter code suivant dans build.sbt 
 
-``` 
+``` sbt
 name := "ScalaJsApp"
 
 version := "0.1"
@@ -36,7 +36,4 @@ object Hello1 {
     println("Hello, world")
   }
 }
-
-
-
 ```
