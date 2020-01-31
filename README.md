@@ -46,3 +46,20 @@ libraryDependencies += "com.lihaoyi" %%% "scalatags" % "0.6.7"
 
 - Pour que les modifications soient prises en compte, il faut utiliser la commande reload 
 ``` sbt> reload```
+- Executer le code pour vérifier l'affichage du "Hello World" 
+``` sbt> run```
+
+- Créer un dossier "views" à la racine du projet, pour y mettre les fichiers HTML. On peut y mettre un premier fichier "hello.html", avec le code suivant : 
+``` html 
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Scala.js Hello, World</title>
+</head>
+<body>
+<!-- include Scala.js compiled code -->
+<script type="text/javascript" src="../target/scala-2.12/scalajsapp-fastopt.js"></script>
+</body>
+</html>
+```
