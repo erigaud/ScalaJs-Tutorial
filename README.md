@@ -23,4 +23,5 @@ version := "0.1"
 scalaVersion := "2.12.4"
 
 enablePlugins(ScalaJSPlugin)
-scalaJSUseMainModuleInitializer := true   // this is an application with a main method ```
+scalaJSUseMainModuleInitializer := true   // application ayant une méthode main
+```
