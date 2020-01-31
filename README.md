@@ -37,3 +37,9 @@ object Hello1 {
   }
 }
 ```
+- Ajouter de nouvelles dépendances dans build.sbt, pour pouvoir travailler avec le DOM et les ScalaTags
+
+``` sbt
+libraryDependencies += "org.scala-js" %%% "scalajs-dom" % "0.9.7"
+libraryDependencies += "com.lihaoyi" %%% "scalatags" % "0.6.7"
+```
