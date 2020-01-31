@@ -43,3 +43,6 @@ object Hello1 {
 libraryDependencies += "org.scala-js" %%% "scalajs-dom" % "0.9.7"
 libraryDependencies += "com.lihaoyi" %%% "scalatags" % "0.6.7"
 ```
+
+- Pour que les modifications soient prises en compte, il faut utiliser la commande reload 
+``` sbt> reload```
