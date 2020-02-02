@@ -103,7 +103,7 @@ object Hello {
 </body>
 ```
 
-- On utilise enfin les Scalatags (qu'on avait dans notre build.sbt)
+- On modifie hello.scala : on utilise enfin les Scalatags (qu'on avait dans notre build.sbt)
 ``` scala 
 import scalatags.JsDom.all._
 ```
@@ -152,5 +152,6 @@ import scalatags.JsDom.all._
  )
  ```
 
+- On peut lancer à nouveau `sbt> fastOptJS` et lancer hello.html dans le navigateur !
   
   
