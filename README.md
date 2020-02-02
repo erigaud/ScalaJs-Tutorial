@@ -43,7 +43,7 @@ object Hello1 {
 libraryDependencies += "org.scala-js" %%% "scalajs-dom" % "0.9.7"
 libraryDependencies += "com.lihaoyi" %%% "scalatags" % "0.6.7"
 ```
-On utisera les ScalaTags dans la partie [Single Page Application][## Single-Page-Application]
+On utisera les ScalaTags dans la partie [Single Page Application][# Single-Page-Application]
 
 - Pour que les modifications soient prises en compte, il faut utiliser la commande reload 
 ``` sbt> reload```
