@@ -43,6 +43,7 @@ object Hello1 {
 libraryDependencies += "org.scala-js" %%% "scalajs-dom" % "0.9.7"
 libraryDependencies += "com.lihaoyi" %%% "scalatags" % "0.6.7"
 ```
+On utisera les ScalaTags dans la partie [Single Page Application][#Single-Page-Application]
 
 - Pour que les modifications soient prises en compte, il faut utiliser la commande reload 
 ``` sbt> reload```
@@ -97,3 +98,37 @@ object Hello {
     <script type="text/javascript" src="../target/scala-2.12/scalajsapp-fastopt.js"></script>
 </body>
 ```
+
+- On utilise enfin les Scalatags (qu'on avait dans notre build.sbt)
+``` scala 
+import scalatags.JsDom.all._
+```
+
+- On remplace la fonction main : 
+
+``` scala
+  def main(args: Array[String]): Unit = {
+    val btn = button(
+      "Click me",
+      onclick := { () =>
+        dom.window.alert("Hello, world")
+      })
+
+    // intentional overkill to demonstrate scalatags
+    val content =
+      div(cls := "foo",
+        div(cls := "bar",
+          h2("Hello"),
+          btn
+        )
+      )
+
+    val root = dom.document.getElementById("root")
+    root.innerHTML = ""
+    root.appendChild(content.render)
+
+  }
+  ```
+  On peut donc créer des éléments html facilement : `html <div class="foo">Hello</div>` devient `scala div(cls := "foo","Hello")` par exemple. 
+  
+  
