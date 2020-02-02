@@ -85,3 +85,15 @@ object Hello {
 
 - Lancer "hello.html" dans le navigateur et observer "Hello, world" s'afficher ! 
 
+## Single Page Application 
+
+- On modifie légèrement le body de views/hello.html 
+
+``` html
+<body>
+    <div id="root"></div>
+    <!-- include Scala.js compiled code -->
+    <script type="text/javascript" src="../target/scala-2.12/scalajsapp-jsdeps.js"></script>
+    <script type="text/javascript" src="../target/scala-2.12/scalajsapp-fastopt.js"></script>
+</body>
+```
