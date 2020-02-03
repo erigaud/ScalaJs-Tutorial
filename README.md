@@ -1,4 +1,5 @@
-# ScalaJs-Tutorial
+![](https://www.scala-js.org/assets/img/scala-js-logo.svg)
+ScalaJs-Tutorial
 ---------
 ## Versions 
 
